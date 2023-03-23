@@ -1,0 +1,170 @@
+:root {
+  --bgbutton: #4fc3f7;
+  --bgform: #e0e0e0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Form Jenis Kelamin, Berat Badan, Usia & Tinggi */
+
+.form-awal {
+  background-color: var(--bgform);
+  padding: 10px 20px;
+}
+
+.form-awal p {
+  font-weight: bold;
+}
+
+.form-awal .input-text {
+  width: 85%;
+  height: 25px;
+  border-radius: 100px;
+}
+
+.form-awal .button {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.form-awal .button input:hover {
+  color: white;
+}
+
+.form-awal .button .submit {
+  border: 1px solid;
+  background-color: var(--bgbutton);
+  border-radius: 10px;
+  height: 30px;
+  width: 25%;
+}
+
+.form-awal .button .reset {
+  border: 1px solid var(--bgbutton);
+  border-radius: 10px;
+  height: 30px;
+  width: 25%;
+}
+
+/* Form Hasil */
+
+.form-hasil {
+  background-color: var(--bgform);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.form-hasil .hasil {
+  margin-top: 1%;
+}
+
+.form-hasil .hasil input {
+  text-align: center;
+  outline: none;
+  border: none;
+  width: 50%;
+  height: 30px;
+  background-color: var(--bgform);
+}
+
+.form-hasil .hasil .hasil2 {
+  font-size: 30px;
+}
+
+.form-hasil .button-download input:hover {
+  color: white;
+}
+
+.form-hasil .submit {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: 1px solid;
+  background-color: var(--bgbutton);
+  border-radius: 10px;
+  height: 30px;
+  width: 25%;
+}
+
+/* Button Konsultasi Ahli Gizi & Registrasi */
+
+.button-konreg {
+  text-align: center;
+}
+
+.button-konreg input:hover {
+  color: white;
+}
+
+.button-konreg .button-konsultasiahli {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: var(--bgbutton);
+  height: 30px;
+  width: 25%;
+}
+
+.button-konreg .button-registrasiahli {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: var(--bgbutton);
+  height: 30px;
+  width: 25%;
+}
+
+/* Form Summary */
+
+.form-summary {
+  background-color: var(--bgform);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.form-summary h2 {
+  font-size: 20px;
+}
+
+.form-summary h2 ol {
+  text-align: center;
+}
+
+.form-summary .button-summary .button-konsultasiapp {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: var(--bgbutton);
+  height: 30px;
+  width: 25%;
+}
+
+.form-summary .button-summary .button-registrasionline {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: var(--bgbutton);
+  height: 30px;
+  width: 25%;
+}
+
+.form-summary .button-summary input:hover {
+  color: white;
+}
+
+.form-summary .button-summary {
+  margin-bottom: 2%;
+}
+
+/* Image Footer */
+
+.footer h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.img-download {
+  text-align: center;
+}
+
+.img-download img {
+  padding: none;
+  width: 150px;
+}
